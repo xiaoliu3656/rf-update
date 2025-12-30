@@ -1,0 +1,26 @@
+{
+  "name": "RF Remote Framework",
+  "channel": "stable",
+  "version": "1.0.4",
+  "updatedAt": "2025-12-30T12:20:00Z",
+  "minBootstrap": "1.5.3",
+  "entry": [
+    "modules/entry.js"
+  ],
+  "hostRules": [
+    {
+      "match": "admin-mx10.pfinprime.com",
+      "modules": [
+        "modules/sidebar-admin.js"
+      ]
+    }
+  ],
+  "integrity": {
+    "modules/entry.js": {
+      "sha256": "93a302878ed11120c32312388958b7a05d6025453b675f8f435daae8d4fb57c1"
+    },
+    "modules/sidebar-admin.js": {
+      "sha256": "269110d20834914f39db7b6ac9b994f8a621dd5d91417b61dff504b0ad30ed39"
+    }
+  }
+}
