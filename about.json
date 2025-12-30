@@ -1,13 +1,13 @@
 {
   "name": "RF Remote Framework",
   "channel": "stable",
-  "desc": "公开壳框架：只安装壳脚本，通过远程仓库发布更新与模块。本版本：Admin Sidebar v2（按截图菜单+角标+搜索+工具箱+挂载选择器）。",
+  "desc": "公开壳框架：只安装壳脚本，通过远程仓库发布更新与模块。此模板包含一个示例模块：在指定域名注入左侧管理菜单（参考截图）。",
   "home": "https://github.com/xiaoliu3656/rf-update",
   "contact": "support@example.com",
   "license": "MIT",
   "tips": [
-    "壳脚本 REMOTE_BASES 改成你的 GitHub Raw 或服务器目录",
-    "远程仓库根目录必须有 manifest.json，about/changelog 用于壳 UI",
-    "Admin Sidebar v2 工具（⋯）里可设置挂载选择器，把菜单挂到站点原侧边栏容器"
+    "先把壳脚本里的 REMOTE_BASES 改成你自己的 GitHub Raw 或服务器目录",
+    "远程仓库根目录必须有 manifest.json，about/changelog 可选但建议提供",
+    "模块文件路径必须与 manifest.json 里的 entry/hostRules 完全一致"
   ]
 }
