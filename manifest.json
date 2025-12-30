@@ -1,9 +1,9 @@
 {
   "name": "RF Remote Framework",
   "channel": "stable",
-  "version": "1.0.2",
-  "updatedAt": "2025-12-30T10:30:00Z",
-  "minBootstrap": "1.5.1",
+  "version": "1.0.3",
+  "updatedAt": "2025-12-30T12:00:00Z",
+  "minBootstrap": "1.5.2",
   "entry": [
     "modules/entry.js"
   ],
